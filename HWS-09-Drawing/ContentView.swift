@@ -58,7 +58,6 @@ struct Triangle: Shape {
         path.addLine(to: CGPoint(x: rect.midX, y: rect.minY))
         path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
 
-        
         return path
     }
 }
@@ -90,6 +89,18 @@ struct Arc: InsettableShape {
         return arc
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 struct ContentView_Previews: PreviewProvider {
